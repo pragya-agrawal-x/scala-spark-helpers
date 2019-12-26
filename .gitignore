@@ -1,2 +1,32 @@
 *.class
 *.log
+*.crc
+
+# SBT Ignore Rules
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+**/_SUCCESS
+**/_metadatas
+
+# IntelliJ IDE Specific Ignore Rules
+.idea/
+project/target/
+
+# Scala IDE Specific Ignore Rules
+*.scala_dependencies
+*.worksheet
+*.xls
+
+# Mac OSX Specific
+*.DS_Store
+
+# Python Specific Ignore Rules
+venv/
+*.pyc
